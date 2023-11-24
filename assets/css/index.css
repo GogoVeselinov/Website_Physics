@@ -1,0 +1,228 @@
+.pgee{ /* Главната снимка от Крис *//*( -_•)▄︻デ══━一 ----> (•_•) reNn.*/
+    display:flow-root;
+    margin: auto;
+    width: 45cm;
+    border-radius: 0.2cm;
+}
+/* ↓↓↓ Минавам на следващата част от HomePage демек About School ↓↓↓ */
+.AbtSchool{ /* Лилавата лента със заглавие за подтекстовете */
+    margin-top: 1cm;
+    background-image: linear-gradient(to right, #bcb5ff, #ada9fd, #9c9dfb, #bcb5ff, #ada9fd);
+
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.flex-container { /* Parent контейнера в който се намират текстовете по долу */
+    display: flex;
+}
+.bckgrSchoolText1, .bckgrSchoolText2 { /* Общите класове които са в Parent Container за двете колони с текст */
+    border-radius: 0.25cm;
+    flex: 1;
+    padding: 1cm;
+    width: 22cm;
+    background-color: rgba(205, 200, 250, 0.55);
+    box-sizing: border-box; /* This includes padding and border in the element's total width and height */
+}
+.bckgrSchoolText1 { /* Additional CSS if needed to adjust spacing */
+    margin-right: 15px; /* To create some space between the two elements */
+}
+.TitlebckgrSchoolText{ /* Заглавията на кутиите */
+    display:flow-root;
+    font-family: baumans;
+    font-size: 30px;
+}
+.SchoolText{ /* Текста в кутиите от bckgrSchoolText1 и bckgrSchoolText2 */
+    text-align: justify;
+    margin-top: 1cm;
+    font-size: 18px;
+    color: black;
+}
+/* ↓↓↓ Минавам на следващата част от HomePage демек About Us ↓↓↓ */ /*( -_•)▄︻デ══━一 ----> (•_•) reNn.*/
+.BackgroundInfo{
+    display: flex;
+    margin:auto;
+    padding: 1cm;
+    width: 31cm;
+    height: auto;
+    background-color: #77bdff1e;
+    border-radius: 1cm;
+}
+.AbtUs{ /* Лента със заглавие*/
+    background-image: linear-gradient(to left, #94d0ff, #b5e2ff, #77bdff, #b5e2ff, #94d0ff);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.centered-content1 { /* Родителски контейнер който центрира полето с инфо */
+    display: flex;
+    position: relative;
+    display:flow-root;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Нека елементът да заема цялата височина на прозореца */
+    margin:auto;
+}
+.InfoForGeorgi { /* Полето където е инфото за Георги */
+    flex-direction: row; /* При необходимост променете на flex-direction: column; */
+    padding: 0.5cm;
+    border-radius: 0.25cm;
+    width: 30cm;
+    height: 6cm;
+    background-color: rgba(148, 209, 255, 0.699);
+    display: flex;
+}
+#GogoPic { /* Снимката н Георги */
+    display: flex;
+    border-radius: 1px;
+    height: 6cm;
+    margin-left: auto;
+}
+.GogoText { /* Текста за Георги */
+    display: flex;
+    margin: auto;
+    margin-left: 1cm;
+    font-size: large;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.centered-content2 { /* Родителски контейнер който центрира полето с инфо */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 0.5cm;
+}
+.InfoForBoqn { /* Полето където е инфото за Боян */
+    display: flex;
+    flex-direction: row; /* При необходимост променете на flex-direction: column; */
+    padding: 0.5cm;
+    border-radius: 0.25cm;
+    width: 30cm;
+    height: 6cm;
+    background-color: rgba(148, 209, 255, 0.699);
+}
+#BoboPic { /* Снимката на Бобо */
+    border-radius: 1px;
+    width: 4.5cm;
+    height: 6cm;
+    margin-left: auto;
+} 
+.BoboText { /* Текста за Бобо */
+    display:flow-root;
+    margin:auto;
+    margin-left: 1cm;
+    font-size: large;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.centered-content3 { /* Родителски контейнер който центрира полето с инфо */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 0.5cm;
+}
+.InfoForKris { /* Полето където е инфото за Крис */
+    display:flow-root;
+    display: flex;
+    flex-direction: row; /* При необходимост променете на flex-direction: column; */
+    padding: 0.5cm;
+    border-radius: 0.25cm;
+    width: 30cm;
+    height: 6cm;
+    background-color: rgba(148, 209, 255, 0.699);
+}
+#KrisPic { /* Снимката на Крис */
+    display:flow-root;
+    border-radius: 1px;
+    height: 6cm;
+    margin-left: auto;
+}
+.KrisText { /* Текста за Крис */
+    display:flow-root;
+    margin:auto;
+    margin-left: 1cm;
+    font-size: large;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*⠀⠀⠀⠀⠀⠀⠀⠀⠠⢾⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣶⣷⣶⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⡿⠟⠃⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⠶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣦⣄⣴⣆⡀⠀⠀⣠⣿⣯⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠻⠿⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⢿⣿⣿⣿⣦⣾⣿⣿⣿⣶⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⠀⠰⣾⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿⣽⣿⣿⣿⣿⣷⣞⠋⣻⠄⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣟⢿⣿⣿⣿⣿⣦⡀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠆⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣿⣿⣿⣿⣷⣽⣿⣿⣿⣿⣷⣄⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⠉⠙⢿⣿⣿⡷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣹⣿⣿⣿⣷⣄⠀⠉⣫⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⢿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠅⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⡿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⠿⠿⠟⠉⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⡇⠘⣿⣿⣿⣿⣿⠂⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⣿⡇⠀⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⡇⠀⢹⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣷⠀⢸⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⡇⠀⢹⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣷⠀⢸⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⡄⠘⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⡇⠀⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⢰⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⣿⣿⣿⡏⢸⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⣾⣿⣿⣿⠿⢿⣿⣿⡏⠀⢸⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠁⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
+*/
+
+/* ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⢹⢹⢹⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠒⠒⠀⠀⠐⠒⠢⠤⣀⣿⡼⠾⠼⠿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⠋⠀⠀⠀⠀⠀⠀⠀⢀⣴⢞⣿⣦⣤⠤⣤⣾⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢾⠀⠀⠀⠀⣰⣶⠶⣦⣾⣿⡉⠈⠛⢛⡟⢁⠟⣁⡬⠜⠋⠉⠉⠉⠉⠉⢉⡭⠟⣋⡽⣟⡻⠭⠭⣍⡒⠤⡀⠀⠀⠀
+⠀⠀⢀⣴⣊⣑⣒⣾⣦⡀⠀⠀⡟⣿⡭⢿⣏⠀⡇⢀⣤⣿⡴⡻⢫⠏⠀⠀⠀⠀⠀⠀⢠⠞⢁⢔⣽⠛⠹⣷⠀⠀⠀⠀⠈⠑⢮⡳⡄⠀
+⠀⠀⢸⡽⠀⡏⠙⣦⠞⣻⡶⢶⣿⣿⢿⣿⣤⣀⠇⢸⢼⠁⢰⠁⡎⠀⠀⠀⠀⠀⠀⡰⠃⡴⣡⠊⠀⡆⠀⢹⡇⠀⠀⠀⠀⠀⠀⠙⣜⡆
+⠀⠀⠈⠙⢒⡽⢊⡴⣏⠀⠹⣿⣍⢿⡛⠉⣹⣿⠤⣼⣾⣦⣬⣆⣇⠀⠀⠀⠀⠀⢰⠁⠸⢰⠁⠀⠀⡇⠀⣼⡇⠀⠀⠀⠀⠀⠀⠀⠈⢹
+⠀⣴⣏⡽⢿⡔⠙⡄⠙⢷⡄⠈⠻⣿⡿⣿⣿⣿⣤⣾⣿⣿⢻⣿⣿⣄⠀⠀⠀⠀⢸⠀⡇⡇⠀⠀⡼⠀⣰⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⢸
+⡴⠁⠀⠛⣯⣿⣶⣽⣄⠀⢻⣦⡀⠀⠙⠛⠹⠋⠛⢿⣿⣿⣿⡧⣙⡏⠓⠤⣀⠀⠈⡆⢱⢱⡤⠊⢀⡴⡵⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸
+⠛⢦⡀⠀⠀⡏⠀⠀⡽⢆⢸⣧⣀⡀⠀⠀⣧⣿⣦⠀⠙⣿⣟⣷⡾⣃⣤⣤⣽⣷⣦⣹⡄⢇⢳⣖⡡⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠎
+⠀⠀⠈⠢⣼⣀⡀⡰⠁⠀⢣⣼⣿⡿⣆⠀⠙⢿⠏⢰⡦⡌⠉⠉⠛⠫⡙⣿⣿⡏⠉⠁⠉⢢⣷⡝⢤⡀⠀⠀⠀⠀⠀⠀⠀⢀⠀⡠⠂⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⡏⠙⢩⣷⡀⠀⠑⣜⢷⡌⢠⣄⠀⢠⣼⣿⣿⣿⡄⠀⢻⡒⠚⢻⢳⠮⣕⡒⠤⠤⠤⢔⣢⠕⠋⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠃⠀⠈⢪⡻⣦⡀⠈⠓⢅⢸⡇⣹⣿⡇⠀⠙⠿⣿⣄⠀⠱⡤⠤⠷⣧⡘⢎⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡀⠀⠀⠙⣼⠃⠀⠀⠈⠓⢍⠇⡇⠇⠀⠀⠀⠘⢎⢆⠀⠙⣦⣀⣾⠳⡈⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠳⡄⠀⠀⡇⠀⠀⠀⠀⠀⠈⠳⢧⡀⠀⠀⠀⠀⣈⣾⠧⢄⠘⢄⠀⢱⣼⡄⢣⡀⣀⣀⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⢸⡄⠀⠱⡀⠀⠀⠀⠀⠀⠀⠀⠙⢄⠀⠀⢰⣁⡈⡆⠈⢷⡦⡉⠀⠀⠀⠀⠹⡉⠹⡝⡏⠑⡄⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠸⠘⣆⠀⠹⡀⠀⠀⠀⠀⠀⠀⠀⠀⠣⡀⢸⣇⣸⣷⠀⢸⡇⣯⣹⣭⣉⣉⣩⠃⠀⠃⢰⠀⢹⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⡇⠀⡸⢆⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢼⣇⣀⡇⣀⠎⠑⠏⠉⢫⣀⡸⠙⢦⠀⢸⢸⣠⠇⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠀⠀⡇⠈⢦⣰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠳⡀⠀⠀⡀⠀⢠⠤⠄⠠⠤⠤⠬⢇⣸⢸⠁⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⡇⠀⠘⣯⢣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢆⠀⠈⠳⠬⠭⠭⠭⠭⠭⠭⠭⠥⠼⠂⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡞⠁⠀⠀⠇⠳⡷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢀⣀⡀⠀ */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебник по физика</title>
+
+    <link rel="icon" type="image/x-icon" href="../icon.ico">
+    <link rel="stylesheet" href="../assets/css/Convertor.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../assets/js/Converter.js"></script>
+</head>
+
+<body>
+<header>
+    <nav>
+        <button class="dropbtn dropdown" onclick="window.location.href='index.html'">Начало
+            <div class="dropdown-content">
+                <a href="../homecontent/html/project.html">Информация за проекта</a>
+                <a href="../homecontent/html/tech.html">Използвани технологии</a>
+                <a href="../homecontent/html/advantages.html">Предимствата на сайта</a>
+            </div>
+        </button>
+        <button onclick="window.location.href='Calculator.html'">Калкулатор</button>
+        <button onclick="window.location.href='Convertor.html'">Конвертор</button>
+        <button onclick="window.location.href='StudentBook.html'">Учебник</button>
+    </nav>
+</header>
+<h1> Конвертор </h1>
+
+<div id="MainContainer">
+        <div class = "input">
+            <select id = "combo0"> 
+
+            <option value = "0">м/с - км/ч</option>
+            <option value = "1">км/ч - м/с</option>
+
+            <input type = "text" id = "comboInput0"> </input>
+            <button id ="Comboconvert0" class= "convert" style = "font-size: 21px;">Convert</button>
+        </div>
+        <div class = "input">
+            <select id = "combo1"> 
+
+            <option value = "0">Сантиметър - Метър</option>
+            <option value = "1">Милиметър - Метър</option>
+
+            <input type = "text" id = "comboInput1"> </input>
+            <button id ="Comboconvert1" class= "convert" style = "font-size: 21px;">Convert</button>
+        </div>
+        <div class = "input">
+            <select id = "combo2"> 
+
+            <option value = "0">Милифарад - Фарад</option>
+            <option value = "1">Микрофарад - Фарад</option>
+            <option value = "2">Нанофарад - Фарад</option>
+            <option value = "3">Пикофарад - Фарад</option>
+
+            <input type = "text" id = "comboInput2"> </input>
+            <button id ="Comboconvert2" class= "convert" style = "font-size: 26px;">Convert</button>
+
+        </div>
+        
+        <img src="../assets/media/Converter-removebg.png" class="ConvrtPic">
+</div>
+</body>
+</html>

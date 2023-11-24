@@ -1,0 +1,62 @@
+header{ /* Горна лента с бутоните: Home, Calc, Student Book */
+    margin-top: 0.5cm;
+    background-image: linear-gradient(to right bottom, #1f3564, #304987, #455dac, #5b71d1, #7586f8);
+    padding: 0.4cm;
+    border-radius: 0.5cm;
+}
+h1{ /* Заглавие */
+    font-size: xxx-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+}
+button { /* Бутоните в header */ 
+    border: none;
+    height: 1cm;
+    background-color:transparent;
+    color: white;
+    border-radius: 0.5cm;
+    transition: background-color 0.5s;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin: 10px;
+}
+button:hover { /* Когато мишката е върху бутона */
+    background-color: #495d9b;
+}
+.dropdown-content { /* Основното меню */
+    margin-left: -8px;
+    display: none;
+    position: absolute;
+    background-color: #455dac;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    transition: opacity 0.3s ease-in-out 5s; /* Променена е само opacity transition */
+    opacity: 0; /* Първоначално менюто е невидимо */
+}
+/* Стилизация на линковете в dropdown менюто */
+.dropdown-content a {
+    margin-top: -5px;
+    font-size: 20px;
+    border-radius: 0.25cm;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration:none;
+    display: block;
+}
+/* Промяна на цвета на линковете при ховър */
+.dropdown-content a:hover {
+    background-color: rgb(177, 197, 255);
+}
+/* Показване на менюто при ховър */
+.dropdown:hover .dropdown-content {
+    margin-top: 10px;
+    border-radius: 0.25cm;
+    display: list-item;
+    opacity: 1; /* Задаване на видимост при ховър */
+    list-style-type: none;
+}

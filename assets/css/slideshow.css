@@ -1,0 +1,42 @@
+/* ↓↓↓ Минавам на следващата част от HomePage демек SlideShow ↓↓↓ */ /*( -_•)▄︻デ══━一 ----> (•_•) reNn.*/
+body {
+  font-family: Verdana, sans-serif;
+}
+.mySlides {
+  display: flex;
+  margin:auto;
+}
+img { /* Позицията на снимката */
+  vertical-align: middle;
+  border-radius: 0.5cm;
+  display: flex;
+}
+.slideshow-container { /* Slideshow container */
+  
+  width: 1500px;
+  position: relative;
+  margin: auto;
+}
+.dot { /* Точките които показват коя снимка е на ред */
+  height: 15px;
+  width: 15px;
+  margin: 10px 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #71717183;
+}
+.fade { /* Fading animation */
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade { /* NGL това го взех от нета така че NO FUCKING CLUE */
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) { /* On smaller screens, decrease text size */
+  .text {font-size: 12px}
+}

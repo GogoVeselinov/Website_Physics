@@ -1,0 +1,61 @@
+.SelectField{
+    float: left;
+}
+.ParentElectricCapacityIntro{
+display: flex;
+}
+.ParentElectricCapacity{
+display: flex;
+margin-top: 70px;
+}
+.ElectricCapacityShowcase{
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 1cm;
+    width: 500px;
+    height: 450px;
+}
+.ElectricCapacity2{
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 500px;
+    height: 450px;
+}
+.FormulaLine5{
+    float: right;
+    margin: auto;
+    margin-top: 1cm;
+    border-radius: 0.5cm;
+    padding: 0.25cm;
+    height: auto;
+    background-color: rgb(205, 200, 250);
+    width: 44cm;
+}
+.FormulaLineText5{
+    text-align: center;
+    font-size: 25px;
+    margin:0px;
+}
+.ElectricCapacityIntro{
+    display: flex;
+    margin: auto;
+    padding: 0.5cm;
+    width: 25cm;
+    height:auto;
+    background-color: rgb(205, 200, 250);
+    font-size: 25px;
+}
+.ElectricCapacity{
+    display: flex;
+    margin: auto;
+    padding: 0.5cm;
+    width: 25cm;
+    height:auto;
+    background-color: rgb(205, 200, 250);
+    font-size: 25px;
+}
+.SelectionBox{
+    border-radius: 0cm;
+    border-top-right-radius: 0.5cm;
+    border-top-left-radius: 0.5cm;
+}

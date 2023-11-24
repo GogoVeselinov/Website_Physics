@@ -1,0 +1,101 @@
+/* .SelectField { Additional classes SelectField and RedBox(Selection) */
+    /* float: left;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 1px;
+    padding: 10px;
+    width: 160px;
+    height: 680px;
+    top: -15px;
+    background-color: black;
+    border-bottom-left-radius: 0.15cm;
+    border-bottom-right-radius:0.15cm;
+} */
+/* .SelectionBox {
+    display: flex;
+    position: absolute;
+    float: left;
+    padding-top: 10px;
+    width: 180px;
+    height: 50px;
+    margin-left: 69px;
+    margin-top: 170px;
+    background-color: #107d9b;
+    top: -30px;
+    left: -60px;
+    border-top-right-radius: 0.15cm;
+    border-top-left-radius: 0.15cm;
+
+    text-align:center;
+    color:mintcream;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+} */
+/* .LessonMenu { Additional styles for the 'href' element */
+    /* color:aliceblue;
+    text-align:center;
+    text-wrap:balance ;
+
+    background-color: black;
+    color: white;
+    border-radius: 0.25cm;
+    transition: background-color 0.25s;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    margin: 10px;
+}
+.LessonMenu:hover{
+    background-color: rgb(65, 65, 65);
+} */
+div{
+    user-select: none;
+}
+.SelectField{ /*Тексто под часта "Уроци"*/
+    position: relative;
+    margin-top: -20px;
+    margin-left: 1px;
+    padding: 10px;
+    width: 155px;
+    height: 680px;
+    top: -15px;
+    font-size: 16.5px;
+    color: mintcream;
+    background-image: linear-gradient(to right, #1f3564, #304987, #455dac, #5b71d1, #7586f8);
+    border-radius: 0.5cm;
+}
+.SelectionBox {/*Кутийката "Уроци"*/
+    position: absolute;
+    padding-top: 20px;
+    width: 175px;
+    height: 50px;
+    margin-left: 69px;
+    margin-top: 170px;
+    background-image: linear-gradient(to right, #1f3564, #304987, #455dac, #5b71d1, #7586f8);
+    top: -30px;
+    left: -60px;
+    border-top-right-radius: 0.5cm;
+    border-top-left-radius: 0.5cm;
+
+    text-align:center;
+    color:mintcream;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.LessonMenu {/*Properties на текста*/
+    color:aliceblue;
+    text-align:center;
+    text-wrap:balance ;
+
+    background-color: transparent;
+    color: white;
+    border-radius: 0.25cm;
+    transition: background-color 0.25s;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    margin: 10px;
+}
+.LessonMenu:hover{/*Промяна на цвета когато user-a hover-не в/у бутона*/
+    background-color: #495d9b;
+}

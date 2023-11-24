@@ -1,0 +1,20 @@
+.backborder{
+    display: block;
+    margin:auto;
+    padding: 1cm;
+    width: 30cm;
+    height: 25cm;
+    background-color: rgb(233, 237, 255);
+}
+.Text{
+    text-align: justify;
+    margin-top: 1cm;
+    font-size: large;
+    color: black;
+}
+.css{
+    display: flex;
+    float: left;
+    width: 100px;
+    height: 100px;
+}

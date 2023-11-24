@@ -1,0 +1,40 @@
+#MainContainer{ /* Това е основното поле където се съдържа всичко от калкулатора */
+    padding: 0.5cm;
+    position: absolute;
+    left: 1cm;
+    width: calc(100% - 3cm);
+    display: flex;
+    justify-content: center;
+    gap: 1.5cm;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, 
+    #7e8dffbb, #6e81ec, #647bdf, #7183e7, #8391fd);
+
+    border-radius: 0.5cm;
+    width: 42cm;
+    height: 16cm;
+    margin-left: 3cm;
+}
+
+div.input {
+    display: inline-block;
+    text-align: center;
+}
+
+input{
+    border: none;
+    border-radius: 0.5cm;
+    font-size: 21px;
+}
+
+select {
+    border: none;
+    border-radius: 0.5cm;
+    padding: 0.125cm;
+} 
+
+.ConvrtPic{
+    margin-top: -1cm;
+    height: 12.5cm;
+    border-radius: 0.5cm;
+}

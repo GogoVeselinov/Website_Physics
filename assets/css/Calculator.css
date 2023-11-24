@@ -1,0 +1,71 @@
+.MainContainer{ /* Това е основното поле където се съдържа всичко от калкулатора */
+    margin: auto;
+    text-align: center;
+    padding: 0.5cm;
+
+    width: 42cm;
+    height: 16cm;
+
+    background-image: linear-gradient(to bottom, 
+    #7e8dffbb, #6e81ec, #647bdf, #7183e7, #8391fd);
+
+    border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.MainDivider{
+    margin: auto;
+    padding: 0.5cm;
+
+    margin-top: -19px;
+    margin-left: -19px;
+    width:42cm;
+    height: 3cm;
+
+    background-image: linear-gradient(to bottom, 
+    #455dac, #5067bf, #5c71d2, #687ce5, #7587f81f);
+
+    border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+}
+
+.dropdownCalc {
+    width: 240px;
+    margin-top: -8px;
+}
+
+.dropdownCalc select {
+    width: 42cm;
+    padding: 10px;
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 0.5cm;
+
+    appearance: none; 
+    text-align: center;
+}
+
+.dropdownCalc select:focus {
+    outline: none;
+}
+
+.dropdownClalcText{
+    text-align: center;
+}
+
+.calcTextInput{
+    margin-top: 0.5cm;
+    border-radius: 0.5cm;
+
+    height: 0.8cm;
+    text-align: center;
+}
+
+.CalcrtPic{
+    margin-top: -0.2cm;
+    height: 11cm;
+    border-radius: 0.5cm;
+}
